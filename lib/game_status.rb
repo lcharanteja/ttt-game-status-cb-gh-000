@@ -17,5 +17,3 @@ def won?(board)
   return false
 end
 
-a = won?(["O", "O", " ", "X", "X", "X", " ", " ", " "])
-puts a
