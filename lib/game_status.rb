@@ -18,4 +18,5 @@ def won?(board)
   end
 end
 
-won?(["O", "O", " ", "X", "X", "X", " ", " ", " "])
+a = won?(["O", "O", " ", "X", "X", "X", " ", " ", " "])
+puts a
