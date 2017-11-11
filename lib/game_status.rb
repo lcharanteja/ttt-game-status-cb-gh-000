@@ -36,3 +36,12 @@ def over?(board)
     false
   end
 end
+
+def winner(board)
+  a = won?(board)
+  if a == false
+    nil
+  else
+    board[a[0]]
+  end
+end
